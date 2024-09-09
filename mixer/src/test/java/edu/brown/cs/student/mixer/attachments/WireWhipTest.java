@@ -18,6 +18,6 @@ public class WireWhipTest {
   @Test
   public void test() {
     WireWhip wireWhip = new WireWhip();
-    assertEquals("wire whipping", wireWhip.mix().whip());
+    assertEquals( "Whipping " + "cream!", wireWhip.mix().whip());
   }
 }
